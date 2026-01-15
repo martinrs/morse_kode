@@ -6,7 +6,7 @@ import requests
 from MorseCodePy import encode
 
 # Den kode, der skal testes
-import morse_solved as morse
+import morse
 
 class TestDictionary(unittest.TestCase):
     def testMorseCode(self):
